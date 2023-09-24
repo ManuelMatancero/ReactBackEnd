@@ -20,7 +20,6 @@ import javax.persistence.OneToMany;
  * @author manue
  */
 @Entity 
-@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Owner implements Serializable {
     
     
