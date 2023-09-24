@@ -81,7 +81,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.matancita.cardatabase.CardatabaseApplication</mainClass>
+                    <mainClass>com.matancita.cardatabase</mainClass>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
