@@ -25,17 +25,17 @@ public class CarRestTest {
     @Autowired
     private MockMvc mockMvc;
     
-//    @Test
-//    public void testAuthentication()throws Exception{
-//        //Testing authentication with correct credentials
-//        this.mockMvc.perform(post ("/login")
-//                .content("{\"username\":\"user\", \"password\":\"user\"}"))
-//                .andDo(print()).andExpect(status().isOk());
-//        
-//        //Testing authentication with wrong credentials
-//        this.mockMvc.perform(post("/login")
-//                .content("{\"username\":\"user\", \"password\":\"wrongpwd\"}"))
-//                .andDo(print()).andExpect(status().is4xxClientError());
-//    }
+    @Test
+    public void testAuthentication()throws Exception{
+        //Testing authentication with correct credentials
+        this.mockMvc.perform(post ("/login")
+                .content("{\"username\":\"user\", \"password\":\"user\"}"))
+                .andDo(print()).andExpect(status().isOk());
+        
+        //Testing authentication with wrong credentials
+        this.mockMvc.perform(post("/login")
+               .content("{\"username\":\"user\", \"password\":\"wrongpwd\"}"))
+                .andDo(print()).andExpect(status().is4xxClientError());
+    }
     
 }
