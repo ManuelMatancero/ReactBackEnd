@@ -1,0 +1,15 @@
+com\matancita\cardatabase\service\LoginFilter.class
+com\matancita\cardatabase\web\SecurityConfig.class
+com\matancita\cardatabase\CardatabaseApplication.class
+com\matancita\cardatabase\service\AuthenticationService.class
+com\matancita\cardatabase\utils\EncoderPass.class
+com\matancita\cardatabase\domain\AccountCredentials.class
+com\matancita\cardatabase\dao\CarDao.class
+com\matancita\cardatabase\domain\Car.class
+com\matancita\cardatabase\domain\User.class
+com\matancita\cardatabase\service\UserDetailServiceImpl.class
+com\matancita\cardatabase\dao\UserDao.class
+com\matancita\cardatabase\domain\Owner.class
+com\matancita\cardatabase\web\CarController.class
+com\matancita\cardatabase\dao\OwnerDao.class
+com\matancita\cardatabase\service\AuthenticationFilter.class
